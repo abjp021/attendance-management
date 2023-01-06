@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
     "http://localhost:3000",
-    "http://localhost:3001"
+    "https://attendance-management.onrender.com"
   );
 
   // Request methods you wish to allow
